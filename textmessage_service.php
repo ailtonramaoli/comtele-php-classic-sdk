@@ -1,6 +1,6 @@
 <?php
 
-$API_KEY = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
+$API_KEY = "22a0b34a-8590-4a7b-91f6-5bf82015f5d6";
 
 $DELIVERY_STATUS_ALL = "all";
 $DELIVERY_STATUS_DELIVERED = "true";
@@ -108,7 +108,7 @@ function get_consolidated_report($start_date, $end_date, $group_type) {
     return $res;
 }
 
-//print_r(send("remetente", "teste via PHP", ["5516999994444"]))
+print_r(send("SUAP", "SUAP Informa: Projeto de Lei nº 2, de autoria do Poder Executivo, que EMENDA MODIFICATIVA DO PROJETO DE LEI N° 02/2021 - DISPÕE SOBRE A RECOMPOSIÇÃO DOS SUBSÍDIOS DOS AGENTES POLÍTICOS E VENCIMENTOS DOS SERVIDORES PÚBLICOS MUNICIPAIS DE MINEIROS E DÁ OUTRAS PROVIDÊNCIAS, foi protocolado na Casa.", ["5564999473053"]))
 //print_r(schedule("remetente", "teste agendado via PHP", "2018-05-28 11:00", ["5516999994444"]))
 //print_r(get_detailed_report("2018-05-01", "2018-05-28 23:59", $DELIVERY_STATUS_UNDELIVERED));
 //print_r(get_consolidated_report("2018-05-01", "2018-05-28 23:59", $REPORT_GROUP_TYPE_MONTHLY));
